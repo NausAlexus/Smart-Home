@@ -1,0 +1,100 @@
+// Задаём стили времени
+document.querySelector(".time").style.margin = "18px 0 0 16px";
+document.querySelector(".time").style.fontSize = "22px";
+
+// Задаём стили верхнему меню
+document.querySelector(".list").innerHTML = `
+<div class="list1">All Devices</div>
+<div class="list2">Living Room</div>`;
+document.querySelector(".list").style.marginTop = "24px";
+document.querySelector(".list1").style.width = "180px";
+document.querySelector(".list1").style.height = "50px";
+document.querySelector(".list1").style.borderRadius = "30px";
+document.querySelector(".list1").style.fontSize = "18px";
+document.querySelector(".list1").style.cursor = "pointer";
+document.querySelector(".list2").style.width = "180px";
+document.querySelector(".list2").style.height = "50px";
+document.querySelector(".list2").style.borderRadius = "30px";
+document.querySelector(".list2").style.fontSize = "18px";
+document.querySelector(".list2").style.cursor = "pointer";
+
+// Задаём стили карточке 1
+document.querySelector(".ico").style.width = "40px";
+document.querySelector(".ico").style.height = "40px";
+document.querySelector(".ico").style.backgroundColor = "#EFF0F2";
+document.querySelector(".ico").style.borderRadius = "50%";
+document.querySelector(".point").style.cursor = "pointer";
+document.querySelector(".point").style.marginLeft = "115px";
+document.querySelector(".point1").style.width = "3px";
+document.querySelector(".point1").style.height = "3px";
+document.querySelector(".point1").style.backgroundColor = "#59637A";
+document.querySelector(".point1").style.borderRadius = "50%";
+document.querySelector(".point2").style.width = "3px";
+document.querySelector(".point2").style.height = "3px";
+document.querySelector(".point2").style.backgroundColor = "#59637A";
+document.querySelector(".point2").style.borderRadius = "50%";
+document.querySelector(".point2").style.marginTop = "5px";
+document.querySelector(".point3").style.width = "3px";
+document.querySelector(".point3").style.height = "3px";
+document.querySelector(".point3").style.backgroundColor = "#59637A";
+document.querySelector(".point3").style.borderRadius = "50%";
+document.querySelector(".point3").style.marginTop = "5px";
+document.querySelector(".card-ico").style.marginTop = "16px";
+document.querySelector(".card-text").innerHTML = `
+<div class="h1-card">Smart Lighting</div>
+<div class="h2-card">8 Devices</div>`;
+document.querySelector(".h1-card").style.fontSize = "20px";
+document.querySelector(".h1-card").style.fontWeight = "500";
+document.querySelector(".h2-card").style.fontSize = "16px";
+document.querySelector(".h2-card").style.color = "#59637A";
+document.querySelector(".card-text").style.margin = "16px 0 0 16px";
+document.querySelector(".line").style.width = "160px";
+document.querySelector(".line").style.height = "1px";
+document.querySelector(".line").style.backgroundColor = "#EFF0F2";
+document.querySelector(".line").style.margin = "15px 0 0 16px";
+document.querySelector(".on-off-text").style.fontWeight = "500";
+document.querySelector(".on-off-text").style.fontSize = "20px";
+
+// Задаём стили карточке 2
+document.querySelector(".ico2").style.width = "40px";
+document.querySelector(".ico2").style.height = "40px";
+document.querySelector(".ico2").style.backgroundColor = "#EFF0F2";
+document.querySelector(".ico2").style.borderRadius = "50%";
+document.querySelector(".point-two").style.cursor = "pointer";
+document.querySelector(".point-two").style.marginLeft = "115px";
+document.querySelector(".point1-two").style.width = "3px";
+document.querySelector(".point1-two").style.height = "3px";
+document.querySelector(".point1-two").style.backgroundColor = "#59637A";
+document.querySelector(".point1-two").style.borderRadius = "50%";
+document.querySelector(".point2-two").style.width = "3px";
+document.querySelector(".point2-two").style.height = "3px";
+document.querySelector(".point2-two").style.backgroundColor = "#59637A";
+document.querySelector(".point2-two").style.borderRadius = "50%";
+document.querySelector(".point2-two").style.marginTop = "5px";
+document.querySelector(".point3-two").style.width = "3px";
+document.querySelector(".point3-two").style.height = "3px";
+document.querySelector(".point3-two").style.backgroundColor = "#59637A";
+document.querySelector(".point3-two").style.borderRadius = "50%";
+document.querySelector(".point3-two").style.marginTop = "5px";
+document.querySelector(".card-ico2").style.marginTop = "16px";
+document.querySelector(".card-text2").innerHTML = `
+<div class="h1-card2">Air Conditioning</div>
+<div class="h2-card2">2 Devices</div>`;
+document.querySelector(".h1-card2").style.fontSize = "20px";
+document.querySelector(".h1-card2").style.fontWeight = "500";
+document.querySelector(".h2-card2").style.fontSize = "16px";
+document.querySelector(".h2-card2").style.color = "#59637A";
+document.querySelector(".card-text2").style.margin = "16px 0 0 16px";
+document.querySelector(".line2").style.width = "160px";
+document.querySelector(".line2").style.height = "1px";
+document.querySelector(".line2").style.backgroundColor = "#EFF0F2";
+document.querySelector(".line2").style.margin = "15px 0 0 16px";
+document.querySelector(".on-off-text2").style.fontWeight = "500";
+document.querySelector(".on-off-text2").style.fontSize = "20px";
+
+// Задаём стили меню
+document.querySelector(".menu").style.width = "430px";
+document.querySelector(".menu").style.height = "93px";
+document.querySelector(".menu").style.backgroundColor = "white";
+document.querySelector(".menu").style.marginTop = "29px";
+document.querySelector(".menu").style.borderRadius = "20px 20px 0 0";

@@ -1,0 +1,110 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.wrapper{
+    width: 430px;
+    height: 450px;
+    background-color: #EFF0F2;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.list1:hover{
+    color: white;
+    background-color: #7F85F5;
+}
+.list2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.list2:hover{
+    color: white;
+    background-color: #7F85F5;
+}
+
+
+
+
+.card{
+    margin-top: 36px;
+    margin-left: 27px;
+    margin-bottom: 13px;
+    width: 370px;
+    height: 160px;
+    background-image: url(../img/Group.png);
+}
+
+
+
+
+/* Задаём стили меню */
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home_ico{
+    stroke: #59637A;
+    margin-left: 8px;
+}
+.home_text{
+    color: #59637A;
+}
+.home{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.home_text{
+    font-size: 15px;
+}
+.devices{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.devices_ico{
+    stroke: #3278FF;
+    margin-left: 12.5px;
+}
+.devices_text{
+    tab-size: 16px;
+    margin-top: -7px;
+    color: #3278FF;
+}
+.home:hover{
+    .home_ico{
+        stroke: #3278FF;
+    }
+    .home_text{
+        color: #3278FF
+    }
+}
